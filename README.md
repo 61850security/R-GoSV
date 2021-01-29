@@ -1,4 +1,11 @@
 # R-GoSV
+
+# Update Status
+We are in the process of updating the current R-GoSV framework with addtional security mechanisms and document the updated framework as journal paper.
+We hope to release updated R-GoSV framework sometime during 2021.
+
+# Programs
+
 1. AES256_gcm_rgoose.c:  
 	This program encrypts the GOOSE APDU data which is defined according to IEC 61850-8-2 using AES256-GCM encryption algorithm with 256 bit symmetric key and generates cipher text. The program  make use of openssl/hmac.h and openssl/evp.h libraries.
 
